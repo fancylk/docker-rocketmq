@@ -6,7 +6,7 @@ FROM java:8
 LABEL MAINTAINER=zhongjiajie955@hotmail.com
 
 # set rocketmq version, search version in `https://dist.apache.org/repos/dist/release/rocketmq/` if you want to change or upgrade rockermq version
-ARG version=4.1.0-incubating
+ARG version=4.3.0
 
 # Rocketmq version
 ENV ROCKETMQ_VERSION ${version}
